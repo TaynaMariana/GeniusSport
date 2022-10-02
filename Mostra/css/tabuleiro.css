@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(215, 173, 255);
+}
+
+.tabuleiro{
+    display: flex;
+    flex-direction: column;
+}
+.casinhaVermelha{
+    background-color: red;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 65px;
+    font-size: 25px;
+}
+.casinhaAzul{
+    background-color: rgb(39, 111, 245);
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 65px;
+    font-size: 25px;
+}
+.casinhaAmarela{
+    background-color: rgb(223, 223, 27);
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 65px;
+    font-size: 25px;
+}
+.casinhaVerde{
+    background-color: rgb(21, 170, 21);
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 65px;
+    font-size: 25px;
+}
